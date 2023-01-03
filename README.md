@@ -14,7 +14,7 @@ Or you can download the processed train data [here](https://mbzuaiac-my.sharepoi
 
 ## Train Generators
 
-**data setting**
+### data setting
 
 Using 49.95K images in /imagenet/train_50 as source data (train data), 999 source classes, 50 images per class
 
@@ -25,6 +25,6 @@ Using 1300 images in /imagenet/train as target data, 1 target class, 1300 images
 
 ## Evaluate Generators
 
-**data setting**
+### data setting
 
 Using 450 images in /imagenet/eval as source data (test data), 9 source classes, 50 images per class
