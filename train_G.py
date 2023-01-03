@@ -62,18 +62,6 @@ def main():
     netD = netD.to(args.device)
     netD.eval()
 
-    target_dict = {
-        3: 'n01491361',
-        16: 'n01560419',
-        24: 'n01622779',
-        36: 'n01667778',
-        48: 'n01695060',
-        52: 'n01728572',
-        69: 'n01768244',
-        71: 'n01770393',
-        85: 'n01806567',
-        99: 'n01855672'
-    }
     targets = [24,99,245,344,471,555,661,701,802,919]
 
     if args.entire_round: # train 10 generators in 10 rounds
